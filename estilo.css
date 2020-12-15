@@ -1,0 +1,17 @@
+*{font-size: 14px ; padding: 0px ; margin: 0 ; line-height: 1.5em;}
+
+body{
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+.img{
+    /* background-size: 500px; */
+    background-image: url(img/photo_background.jpg);
+    background-position: center;
+    height: 600px;
+    width: 600px;
+    background-repeat: repeat;
+    opacity: 0.2;
+}
