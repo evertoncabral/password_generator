@@ -13,5 +13,11 @@ body{
     height: 600px;
     width: 600px;
     background-repeat: repeat;
-    opacity: 0.2;
+    opacity: 0.9;
+}
+
+.input{
+
+  background-position: center;
+
 }
