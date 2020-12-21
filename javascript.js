@@ -1,9 +1,20 @@
 
 
+console.log("passei aqui 1")
 
 
 
-function sendNumber(len) {
+    var exibicao = document.getElementById("show");
+    var nome = document.getElementById("value").sendNumber(password.substr(0,len));
+    exibicao.innerText = nome;  
+
+
+    function sendNumber(len) {
+
+    console.log("passei aqui 2")
+
+   
+    
     var length = (len)?(len):(10);
     var string = "abcdefghijklmnopqrstuvwxyz"; //to upper 
     var numeric = '0123456789';
@@ -22,8 +33,8 @@ function sendNumber(len) {
         character += punctuation.charAt( entity3 );
         password = character;
     }
-    password=password.split('').sort(function(){return 0.5-Math.random()}).join('');
+    password = password.split('').sort(function(){return 0.5-Math.random()}).join('');
     return password.substr(0,len);
 }
 
-console.log( sendNumber() );
+// console.log( sendNumber() );
